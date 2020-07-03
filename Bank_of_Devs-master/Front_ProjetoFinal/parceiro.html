@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="parceiro.js"></script>
+
+    <title>Parceiro</title>
+</head>
+
+<body onload="iniciar()">
+    <div class="container h-100">
+
+        <div class="row align-items-center w-100" style="margin: 0px;">
+            <div class="col-12 mx-auto">
+                
+                <div class="jumbotron" style="padding-top: 20px;margin: 20px;">
+                    <div class="row ">
+                        <div class="col text-left">
+                            <button class="btn btn-secondary btn-sm" style="margin-left: 0px;" onclick="voltar()">Voltar</button>
+                        </div>
+                        <div class="col text-right">
+                            <button class="btn btn-primary btn-sm" style="margin-right: 0px;" onclick="logout()">Logout</button>
+                        </div>
+                    </div><br>
+                    <div class="row"><h2>Resumo Parceiro</h2></div><br>
+                    <div class="row align-items-center">
+                        <div class="card w-100">
+                            <div class="card-header" >
+                                Parceiro
+                            </div>  
+                            <div class="number card-body" id="parceiro">                                
+                             </div>
+                        </div>
+                    </div><br>
+                    <div class="row align-items-center">
+                        <div class="card w-100" style="margin: 1px;">
+                            <div class="card-header">
+                                Sucesso
+                            </div>  
+                            <div class="number card-body" id="sucesso">
+                                                               
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="row align-items-center">
+                        <div class="card w-100">
+                            <div class="card-header">
+                                Falhas
+                            </div>  
+                            <div class="number card-body" id="falha">
+                                
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="row align-items-center">
+                        <div class="card w-100">
+                            <div class="card-header">
+                                Fraude
+                            </div>  
+                            <div class="number card-body" id="fraude">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

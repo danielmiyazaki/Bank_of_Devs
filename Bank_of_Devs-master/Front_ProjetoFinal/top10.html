@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="top10.js"></script>
+    <title>Top 10</title>
+</head>
+<body onload="iniciar()">
+    <div class="container h-100 w-100">        
+        <div class="row align-items-center w-100" style="margin: 0px;">            
+            <div class="col-12 mx-auto">
+                <div class="jumbotron" style="padding-top: 20px;margin: 20px;">
+                    
+                    <div class="row">    
+                        <div class="col text-right">
+                            <button class="btn btn-primary btn-sm" style="margin-right: 0px;" onclick="logout()">Logout</button>
+                        </div>
+                    </div><br>
+                    <div class="row align-items-center" >
+                        <div class="col-4" style="padding-right:0px" id="foto">
+                        </div>
+                        <div class="col" style="padding-left:1px" id="user">                            
+                        </div>
+                        
+                    </div><br>
+                    <div class="row">                        
+                        <div class="col-12" id="combo">
+                        </div>
+                                            
+                    </div><br>
+                      <div class="card">
+                        <div class="text_table card-header">
+                            Top 10 Parceiro
+                          </div>  
+                        <div class="card-body">                          
+                          <div class="col-12" id="conteudo">
+                            <!-- aqui vai a lista de departamentos -->
+                        </div>
+                        </div>
+                      
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>

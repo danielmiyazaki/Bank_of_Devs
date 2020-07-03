@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
+
+
+
+    <title>Login</title>
+</head>
+
+<body>
+    <!--Menu de Acesso-->
+
+    <div class="container d-flex h-100 w-100">
+        <div class="row align-items-center w-100" style="margin: 0px;">
+            <div class="col-12 mx-auto" style="padding: 0px;">
+                <div class="jumbotron" style="padding-top: 30px;margin: 20px;">
+                    <div class="row ">
+
+                        <div class="col text-center">
+                            <!--Insere aqui o cabeçalho do painel de acesso-->
+                            <p class="text-center font-weight-bold"><h3>Login</h3></p>
+                        </div>
+<br>
+                        <div class="col-md-12">
+                            <div class="text-center" id="msgError"></div>
+                        </div>
+                    </div>
+                    <form>
+
+                        <!--Caixas para inserir email e senha-->
+
+                        <label for="inputEmail">Email ou Racf</label>
+                        <input type="text" class="form-control" id="inputEmail">
+
+                        <label for=" inputSenha">Senha</label>
+                        <input type="password" class="form-control" id="inputSenha">
+
+                        <!--Redirecinona para o link com a racf **Ver se há uma forma melhor***-->
+                      <!--x  <a href="http://127.0.0.1:5500/loginRacf.html" class="stretched-link">Acesso com RACF</a> 
+                        <!--    -->
+
+                        <div class="col text-center">
+                            <!--Aqui centraliza o botão de enviar-->
+                            <br>
+                            <button type="submit" class="btn btn-info" onclick="acessarEmail(event)">Acessar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
